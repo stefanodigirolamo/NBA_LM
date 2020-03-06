@@ -2,13 +2,15 @@ import React from 'react';
 import {View, Image, StyleSheet, SafeAreaView} from 'react-native';
 import Logo from '../assets/NBA_logo.png';
 
-const Header = () => (
-  <View style={styles.container}>
-    <SafeAreaView>
-      <Image style={styles.logo} source={Logo} />
-    </SafeAreaView>
-  </View>
-);
+const Header = () => {
+  return (
+    <View style={styles.container}>
+      <SafeAreaView>
+        <Image style={styles.logo} source={Logo} />
+      </SafeAreaView>
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {

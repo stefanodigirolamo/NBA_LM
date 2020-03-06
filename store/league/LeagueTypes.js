@@ -1,0 +1,3 @@
+export const LEAGUE_LOAD = 'LEAGUE_LOAD';
+export const LEAGUE_SUCCESS = 'LEAGUE_SUCCESS';
+export const LEAGUE_ERROR = 'LEAGUE_ERROR';
